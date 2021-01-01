@@ -1,4 +1,4 @@
 ### Language study note
 
-- git
+- [git](/git)
 - javascript
