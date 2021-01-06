@@ -123,3 +123,4 @@
 ### document 객체와 DOM
 - document object model
 - html을 js로 통역해 주는 역할
+- [JS로 HTML태그 만들기](/making_html_tag)
