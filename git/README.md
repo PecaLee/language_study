@@ -240,7 +240,20 @@
   - 깃 리모트 저장소의 업데이트 확인
 
 - git pull
+
   ```
   $ git pull <remote>
   ```
+
   - 깃 리모트 저장소의 내용을 가져와 병합
+
+- git config
+  ```
+  $ git config
+  ```
+  - git 설정등을 확인
+  ```
+  $ git config --global user.name "name"
+  $ git config --global user.email "email"
+  ```
+  - 글로벌 유저네임 이메일 확인
