@@ -87,24 +87,4 @@ Django is a massive fram work.
 
 - 모든 애플리케이션을 통합해서 웹 사이트를 구성
 
-#### Django Applications
-
-- 장고 프로젝트는 여러 애플리케이션을 포함하고 있다.
-- function의 집합
-- CRUD를 기준으로 생각하기
-- 어플리케이션은 한문장으로 설명할 수 있어야 한다
-- 1개의 어플리케이션은 가능하한 작게
-- divide and conquer
-
-```
-> django-admin startapp <app name>
-```
-
-- 어플리케이션 작성
-- 어플리케이션 이름은 복수형으로
-- 장고 기본 어플리케이션과 겹치는 이름은 다른 이름으로 작성
-
-#### 장고에 어플리케이션을 등록
-
-- config에서 등록
--
+### [장고 어플리케이션](./apps.md)
