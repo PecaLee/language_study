@@ -78,6 +78,21 @@ class User(AbstractUser):   #AbstractUser를 상속해서 데이터베이스 생
 - default = "" : 데이터베이스 에서의 기본값
 - blank = True : 필수선택이 아니게
 
+```
+from django.db import models
+
+# Create your models here.
+class TimeStampedModel(models.Model):
+
+    """ Time Stamped Model """
+
+    created = models.DateTimeField()
+    updated = models.DateTimeField()
+
+    class Meta:     #다른 모델에 상속시키기 위해 데이터베이스에 저장되지 않은 모델을 작성하기 위한 옵션
+        abstract = True
+```
+
 ## admin.py
 
 ### 애드민 패널에서의 형태를 결정
