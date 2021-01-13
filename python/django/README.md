@@ -88,3 +88,5 @@ Django is a massive fram work.
 - 모든 애플리케이션을 통합해서 웹 사이트를 구성
 
 ### [장고 어플리케이션](./apps.md)
+
+### [장고 QuerySets](./querysets.md)
