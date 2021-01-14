@@ -25,11 +25,10 @@ $ python manage.py shell
 
 ```
 >>> from <app>.models import <model>
->>> dir(<model>)
->>> vars(<model>)
+>>> <model>.object
 ```
 
-- foreign key 에서 가져올때는
+- 다른 어플리케이션에서 가져올때는
   ```
   .<arg>_set
   ```
