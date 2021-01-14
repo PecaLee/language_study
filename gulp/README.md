@@ -15,3 +15,10 @@
   yarn add gulp-cli
   yarn add gulp -D
   ```
+- gulpfile.js에 필요한 task를 작성해 준다.
+  ```
+  series()
+  //차례대로 태스크를 수행
+  parallel()
+  //동시에 태스크를 수행
+  ```
