@@ -25,7 +25,7 @@ $ python manage.py shell
 
 ```
 >>> from <app>.models import <model>
->>> <model>
+>>> <model>.objects
 ```
 
 - 다른 어플리케이션에서 가져올때는
