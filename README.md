@@ -2,7 +2,7 @@
 
 - [git](/git)
 - [javascript](/javascript)
-- [gulp](/gulp)
+- [gulp](/javascript/nodejs/gulp)
 - [python](/python)
   - [django](/python/django)
   - [flask](/python/flask)
