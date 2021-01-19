@@ -90,3 +90,5 @@ Django is a massive fram work.
 ### [장고 어플리케이션](./apps.md)
 
 ### [장고 QuerySets](./querysets.md)
+
+### [장고 Custom manage.py commands](./commands.md)
