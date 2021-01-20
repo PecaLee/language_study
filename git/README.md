@@ -262,8 +262,4 @@
 
   - 글로벌 유저네임 이메일 확인
 
-  ```
-  $ git config --unset credential.helper
-  ```
-
-  - 깃 인증리셋 (암호 토큰등 변경)
+  - [깃 인증리셋 (암호 토큰등 변경)](https://docs.github.com/en/github/using-git/updating-credentials-from-the-macos-keychain)
